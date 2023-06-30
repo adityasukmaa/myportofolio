@@ -17,9 +17,7 @@ menu.onclick = () => {
 window.onscroll = () => {
     menu.classList.remove('bx-x');
     navlist.classList.remove('open');
-}
-
-window.onscroll = () => {
+    
     sections.forEach(sec => {
         let top = window.scrollY;
         let offset = sec.offsetTop - 150;
